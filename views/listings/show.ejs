@@ -29,7 +29,7 @@
 
 <% if(currUser && listing.owner._id.equals(currUser._id)){%>
 
-<div class="btns">
+<div class="btns edit-delete-btn ">
 <a href="/listings/<%=listing._id%>/edit " class="btn btn-dark col-1 offset-3 edit-btn">Edit</a>
 
    
@@ -40,7 +40,7 @@
     </div>
   <%}%>
   
-    <div class="col-8 offset-3 mb-3">
+    <div class="col-8 offset-3 mb-3 map-section">
    
 
        <%if(currUser) {%>
