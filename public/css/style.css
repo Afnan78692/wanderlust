@@ -542,11 +542,6 @@ transform: scale(0.96);
   box-shadow: 0 0 8px rgba(0,0,0,0.15);
 }
 
-/* to control whole image area main page */
-.container .row{
-    display: block;
-    margin-left: -42px;
-}
 
 /* control map page whole body */
 .container>:nth-child(2){
@@ -557,15 +552,8 @@ padding-top: 18px;
 }
 
 
-/* for controlling card */
-.container .row .col-6{
-    width: 96%;
-}
-/* \controlling card  */
-.container .row .card {
-    margin-left: 28px;
-   
-}
+
+
 
 /* title of area in map-box */
 .row.mt-3 > .col-8.offset-3 > h3 {
